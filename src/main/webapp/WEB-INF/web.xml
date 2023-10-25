@@ -79,8 +79,8 @@
 <!--    </error-page>-->
 
     <error-page>
-        <exception-type>java.lang.Throwable</exception-type>
-<!--        <error-code>404</error-code>-->
+<!--        <exception-type>java.lang.Throwable</exception-type>-->
+        <error-code>404</error-code>
         <location>/errorHandler</location>
     </error-page>
 
