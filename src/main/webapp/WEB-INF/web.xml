@@ -73,9 +73,15 @@
         <url-pattern>/login</url-pattern>
     </servlet-mapping>
 
+<!--    <error-page>-->
+<!--        <error-code>404</error-code>-->
+<!--        <location>/404.html</location>-->
+<!--    </error-page>-->
+
     <error-page>
-        <error-code>404</error-code>
-        <location>/src/main/webapp/404.html</location>
+        <exception-type>java.lang.Throwable</exception-type>
+<!--        <error-code>404</error-code>-->
+        <location>/errorHandler</location>
     </error-page>
 
 </web-app>
